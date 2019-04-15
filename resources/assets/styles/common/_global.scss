@@ -1,0 +1,58 @@
+/* GLOBAL */
+
+html,
+body {
+  box-sizing: border-box;
+  color: $dark-color;
+  font-family: $primary-font;
+  font-size: calc-em(16);
+}
+
+/* FONTS Roboto + Lobster
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+h1,
+.h1 {
+  font-size: calc-em(40);
+}
+
+h2,
+.h2 {
+  font-size: calc-em(24);
+}
+
+h3,
+.h3 {
+  font-size: calc-em(24);
+}
+
+h4 {
+  font-size: calc-em(20);
+}
+
+h5 {
+  font-size: calc-em(18);
+}
+
+h6 {
+  font-size: calc-em(16);
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.paragraph {
+
+}
+
+.paragraph--small {
+    
+}
+
