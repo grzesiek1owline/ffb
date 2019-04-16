@@ -1,0 +1,26 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$theme-colors: (
+  primary: #525ddc
+);
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+/* FONTS */
+
+$base-font-size: 16;
+
+$primary-font: "Roboto", sans-serif;
+$second-font: "Lobster", cursive;
+
+$primary-color: #009ee2;
+//$primary-dark-color:
+$second-color: #00b8d4;
+//$second-dark-color:
+
+$light-color: #fff;
+$dark-color: #444;
+$darker-color: #333;

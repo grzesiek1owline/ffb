@@ -1,0 +1,44 @@
+.section {
+  padding: 0;
+  width: 100%;
+
+  &--bg {
+    background-image: url("images/sec-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--dark {
+    padding: 70px 0;
+    background-color: #292929;
+  }
+}
+
+.vertical {
+  padding: 0;
+
+  &__title {
+    color: $light-color;
+    padding-right: 60px;
+  }
+
+  &__bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 33vw;
+    background-color: $primary-color;
+    z-index: -1;
+    border: 1px solid red;
+
+    &--reverse {
+      right: auto;
+      left: 0;
+    }
+
+    & > img {
+      object-fit: cover;
+    }
+  }
+}
