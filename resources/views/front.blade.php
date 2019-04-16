@@ -80,57 +80,179 @@
 
       <ul class="service__list">
         <li class="service__element">
-          <img class="service__image" src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="">
-          <div class="service__overlay"></div>
-          <div class="service__title">
-            <h3 class="ttu">Joga</h3>
+          <div class="service__top">
+            <img class="service__image" src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="">
+            <div class="service__overlay"></div>
             <div class="service__desc">
-              <h3 class="ttu">Joga</h3>
               <p class="paragraph paragraph--small">Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
             </div>
           </div>
-        </li>
-        <li class="service__element">
-          <img class="service__image" src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="">
-          <div class="service__overlay"></div>
           <div class="service__title">
-            <h3 class="ttu">Treningi personalne</h3>
+            <h3>treningi personalne</h3>
           </div>
         </li>
         <li class="service__element">
-          <img class="service__image" src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="">
-          <div class="service__overlay"></div>
+          <div class="service__top">
+            <img class="service__image" src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="">
+            <div class="service__overlay"></div>
+            <div class="service__desc">
+              <p class="paragraph paragraph--small">Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+            </div>
+          </div>
           <div class="service__title">
-            <h3 class="ttu">Zajęcia pływackie</h3>
+            <h3>treningi personalne</h3>
           </div>
         </li>
         <li class="service__element">
-          <img class="service__image" src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="">
-          <div class="service__overlay"></div>
+          <div class="service__top">
+            <img class="service__image" src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="">
+            <div class="service__overlay"></div>
+            <div class="service__desc">
+              <p class="paragraph paragraph--small">Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+            </div>
+          </div>
           <div class="service__title">
-            <h3 class="ttu">Aquaaerobic</h3>
+            <h3>treningi personalne</h3>
           </div>
         </li>
         <li class="service__element">
-          <img class="service__image" src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="">
-          <div class="service__overlay"></div>
+          <div class="service__top">
+            <img class="service__image" src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="">
+            <div class="service__overlay"></div>
+            <div class="service__desc">
+              <p class="paragraph paragraph--small">Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+            </div>
+          </div>
           <div class="service__title">
-            <h3 class="ttu">Joga</h3>
+            <h3>treningi personalne</h3>
           </div>
         </li>
         <li class="service__element">
-          <img class="service__image" src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="">
-          <div class="service__overlay"></div>
+          <div class="service__top">
+            <img class="service__image" src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="">
+            <div class="service__overlay"></div>
+            <div class="service__desc">
+              <p class="paragraph paragraph--small">Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+            </div>
+          </div>
           <div class="service__title">
-            <h3 class="ttu">Joga</h3>
+            <h3>treningi personalne</h3>
           </div>
         </li>
+        
       </ul>
 
 
+      <!-- Title -->
+      <div class="mt-5"></div>
+      <h2>Posty</h2>
+      <div class="mb-4"></div>
+
+      <ul class="post__list">
+        <li class="post__list-element">
+            <div class="post__single">
+              <div class="post__thumb">
+                <img src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="title">
+                <div class="post__overlay"></div>
+                <div class="post__date">
+                  <span>feb</span>
+                  <p>28</p>
+                </div>
+              </div>
+              <div class="post__excerpt">
+                <h3>Zmiana terminu zajęć</h3>
+                <p>Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+                <a href="#" class="post__perm">Czytaj dalej...</a>
+              </div>
+            </div>
+        </li>
+        <li class="post__list-element">
+            <div class="post__single">
+              <div class="post__thumb">
+                <img src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="title">
+                <div class="post__overlay"></div>
+                <div class="post__date">
+                  <span>feb</span>
+                  <p>28</p>
+                </div>
+              </div>
+              <div class="post__excerpt">
+                <h3>Zmiana terminu zajęć</h3>
+                <p>Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+                <a href="#" class="post__perm">Czytaj dalej...</a>
+              </div>
+            </div>
+        </li>
+        <li class="post__list-element">
+            <div class="post__single">
+              <div class="post__thumb">
+                <img src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="title">
+                <div class="post__overlay"></div>
+                <div class="post__date">
+                  <span>feb</span>
+                  <p>28</p>
+                </div>
+              </div>
+              <div class="post__excerpt">
+                <h3>Zmiana terminu zajęć</h3>
+                <p>Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+                <a href="#" class="post__perm">Czytaj dalej...</a>
+              </div>
+            </div>
+        </li>
+        <li class="post__list-element">
+            <div class="post__single">
+              <div class="post__thumb">
+                <img src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="title">
+                <div class="post__overlay"></div>
+                <div class="post__date">
+                  <span>feb</span>
+                  <p>28</p>
+                </div>
+              </div>
+              <div class="post__excerpt">
+                <h3>Zmiana terminu zajęć</h3>
+                <p>Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+                <a href="#" class="post__perm">Czytaj dalej...</a>
+              </div>
+            </div>
+        </li>
+      </ul>
+
+      </div>
+
+
+
+            <!-- Title -->
+      <div class="container">
+      <div class="mt-5"></div>
+      <h2>Najnowszy Post</h2>
+      <div class="mb-4"></div>
+      </div>
+      
+
+      <section class="section section--bg">
+        <div class="container">
+          <div class="post__newest">
+          <div class="post__thumb post__thumb--newest">
+            <img src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23" alt="title">
+            <div class="post__overlay"></div>
+            <div class="post__date">
+              <span>feb</span>
+              <p>28</p>
+            </div>
+          </div>
+          <div class="post__excerpt post__excerpt--newest">
+            <h3>Zmiana terminu zajęć</h3>
+            <p>Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+            <a href="#" class="post__perm">Czytaj dalej...</a>
+          </div>
+        </div>
+        </div>
+      </section>
 
       <div class="d-block pb-5 mb-5"></div>
 
-    </div>
+    
   @endwhile
 @endsection

@@ -1,0 +1,10 @@
+.section {
+  padding: 0;
+  width: 100%;
+
+  &--bg {
+    background-image: url("images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
