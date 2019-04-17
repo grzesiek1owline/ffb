@@ -365,17 +365,19 @@
   <div class="container">
     <div class="row align-items-stretch">
       <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center relative">
-          <div class="vertical__title text-center text-md-right">
+          <div class="vertical__title text-center text-md-right relative d-block">
               <h2 class="ttu">O NAS</h2>
               <p class="vertical__subtitle">Witaj w naszym klubie</p>
-              <div class="vertical__bg">
+          </div>
+          <div class="vertical__bg vertical__bg--left">
                 <img src="" alt="">
-              </div>
           </div>
       </div>
       <div class="col-12 col-md-6 col-lg-8">
           <div class="vertical__desc">
-              <p class="mb-4">
+              <p class="mb-4 pb-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationulaco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repdan tiutrpeam, eaque ipsa quae ab illo inventore veritatis et qua.<br/>
+                  <br/>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationulaco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repdan tiutrpeam, eaque ipsa quae ab illo inventore veritatis et qua
               </p>
               <a href="#" class="post__perm">Czytaj dalej...</a>
@@ -385,29 +387,94 @@
   </div>
 </section>
 
-<section class="section section--vertical">
-    <div class="container">
-      <div class="row flex-row-reverse align-items-stretch">
-        <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center relative">
-            <div class="vertical__title text-center text-md-left">
-                <h2 class="ttu">O NAS</h2>
-                <p class="vertical__subtitle">Witaj w naszym klubie</p>
-                <div class="vertical__bg vertical__bg--reverse">
-                  <img src="" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-8">
-            <div class="vertical__desc">
-                <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationulaco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repdan tiutrpeam, eaque ipsa quae ab illo inventore veritatis et qua
-                </p>
-                <a href="#" class="post__perm">Czytaj dalej...</a>
-              </div>
-        </div>
-      </div>
+<!-- Title -->
+<div class="container">
+    <div class="mt-5"></div>
+    <h2>Opinie</h2>
+    <div class="mb-4"></div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="opinion__wrapper">
+      <h2 class="opinion__title">Co mówią o nas klienci?</h2>
+      <p class="opinion__quot">"</p>
+      <ul class="opinion__list">
+        <li class="opinion__single">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationulaco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repdan tiutrpeam, eaque ipsa quae ab illo inventore veritatis et qua.<br/>
+        </p>
+        </li>
+      </ul>
+      <p class="opinion__quot">"</p>
+      <ul class="dots">
+        <li class="dots__single"></li>
+        <li class="dots__single dots__single--active"></li>
+        <li class="dots__single"></li>
+      </ul>
     </div>
-  </section>
+  </div>
+</section>
+
+
+<!-- Title -->
+<div class="container">
+    <div class="mt-5"></div>
+    <h2>Cennik</h2>
+    <div class="mb-4"></div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <ul class="price__list">
+      <li class="price__element">
+        <h3 class="price__title">Karnet Open</h3>
+        <img src="@asset('images/blue/012-beach.png')" alt="ikona pakietu">
+        <div class="price">od 80zł <span>/miesięcznie</span></div>
+        <ul class="package__list">
+          <li class="package__element">
+            <p>Zajęcia fitness</p>
+            <p>Sauna</p>
+            <p>Joga</p>
+            <p>Zajęcia fitness</p>
+            <p>Sauna</p>
+          </li>
+        </ul>
+      </li>
+      <li class="price__element price__element--active">
+        <h3 class="price__title">Karnet Open</h3>
+        <img src="@asset('images/blue/013-swimmer-1.png')" alt="ikona pakietu">
+        <div class="price">od 80zł <span>/miesięcznie</span></div>
+        <ul class="package__list">
+          <li class="package__element">
+            <p>Zajęcia fitness</p>
+            <p>Sauna</p>
+            <p>Joga</p>
+            <p>Zajęcia fitness</p>
+            <p>Sauna</p>
+          </li>
+        </ul>
+      </li>
+      <li class="price__element">
+        <h3 class="price__title">Karnet Open</h3>
+        <img src="@asset('images/blue/001-swimming-figure.png')" alt="ikona pakietu">
+        <div class="price">od 80zł <span>/miesięcznie</span></div>
+        <ul class="package__list">
+          <li class="package__element">
+            <p>Zajęcia fitness</p>
+            <p>Sauna</p>
+            <p>Joga</p>
+            <p>Zajęcia fitness</p>
+            <p>Sauna</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <div class="text-center bold mt-5 pt-3">
+    <a href="#" class="post__perm">Zobacz cennik</a>
+    </div>
+  </div>
+</section>
 
 
 <div class="d-block pb-5 mb-5"></div>

@@ -19,7 +19,33 @@
 
   &__title {
     color: $light-color;
-    padding-right: 60px;
+    padding: 80px 60px 80px 0;
+
+    & > h2 {
+      font-size: calc-em(32);
+      margin-bottom: 0;
+    }
+
+    & > p {
+      position: relative;
+      font-size: calc-em(18);
+
+      &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: -15px;
+        width: 60px;
+        height: 3px;
+        background-color: $second-color;
+        z-index: 8;
+      }
+    }
+  }
+
+  &__desc {
+    text-align: justify;
+    padding: 80px 60px 80px 20px;
   }
 
   &__bg {
@@ -27,10 +53,23 @@
     right: 0;
     top: 0;
     height: 100%;
-    width: 33vw;
-    background-color: $primary-color;
+    width: 40vw;
+    background: $primary-color;
     z-index: -1;
-    border: 1px solid red;
+
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: 40vw;
+      background: url("https://www.bwt.com/en/-/media/bwt/bwtcom/image-gallery/stage/swimming-pools-spas-slider_large.jpg?h=900&w=1680&la=en&hash=1732E45665EA3FAC15140702F8784B3BFC187774");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.4;
+    }
 
     &--reverse {
       right: auto;
@@ -42,3 +81,142 @@
     }
   }
 }
+
+// OPINIE
+
+.opinion {
+  padding: 0;
+
+  &__wrapper {
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 0 15px 12px rgba(68, 68, 68, 0.15);
+    padding: 60px;
+    background-image: url("images/sec-bg.png");
+  }
+
+  &__title {
+    font-size: calc-em(30);
+    color: $primary-color;
+    line-height: 0.8;
+    margin-bottom: 80px;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 30px 0 70px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  &__single {
+    padding: 0;
+    display: block;
+    width: 100%;
+  }
+
+  &__quot {
+    font-size: calc-em(80);
+    font-family: $second-font;
+    color: rgb(153, 153, 153);
+    line-height: 0;
+    margin: 0;
+  }
+}
+
+.dots {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+  &__single {
+    padding: 0;
+    width: 20px;
+    height: 4px;
+    background-color: $primary-color;
+    margin: 0 3px;
+    transition: all 0.1s ease;
+    cursor: pointer;
+
+    &--active {
+      padding: 0;
+      height: 8px !important;
+      background-color: $second-color;
+    }
+
+    &:hover {
+      height: 6px;
+    }
+  }
+}
+
+// PRICE
+
+.price {
+  color: $light-color;
+  font-size: calc-em(26);
+  font-weight: bold;
+  background-color: $primary-color;
+  padding: 5px 15px;
+
+  & > span {
+    font-weight: 500;
+    font-size: calc-em(12);
+  }
+
+  &__list {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  &__element {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #fafafa;
+    width: 340px;
+    margin: 0 20px;
+
+    & > img {
+      padding: 0;
+      margin-bottom: 30px;
+    }
+
+    &--active {
+      background-color: #fff;
+      box-shadow: 0 0 15px 12px rgba(68, 68, 68, 0.15);
+    }
+  }
+
+  &__title {
+    padding: 0;
+    font-size: calc-em(14);
+    color: $primary-color;
+    margin-bottom: 30px;
+  }
+}
+
+.package {
+  padding: 0;
+
+  &__list {
+    padding: 0;
+  }
+
+  &__element {
+    padding: 30px 0 0;
+
+    & > p {
+      font-size: calc-em(14);
+      color: #333;
+      line-height: 1;
+    }
+  }
+}
+
