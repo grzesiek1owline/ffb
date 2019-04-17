@@ -476,6 +476,32 @@
   </div>
 </section>
 
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>Footer - big form</h2>
+  <div class="mb-4"></div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="contact__wrapper">
+      <div class="section__title d-block text-center">
+        <h2 class="ttu bold">Kontakt z nami</h2>
+        <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
+      </div>
+      <form action="">
+        <input class="input input--half"  type="text" placeholder="Imię" required>
+        <input class="input input--half"  type="text" placeholder="Nazwisko">
+        <input class="input input--half"  type="email" placeholder="Adres email" required>
+        <input class="input input--half"  type="tel" placeholder="Telefon">
+        <input class="input input--full"  type="text" placeholder="Temat">
+        <textarea class="textarea" placeholder="treść wiadomości"></textarea>
+        <input class="post__perm" type="submit" value="Wyślij wiadomość">
+      </form>
+    </div>
+  </div>
+</section>
 
 <div class="d-block pb-5 mb-5"></div>
 
