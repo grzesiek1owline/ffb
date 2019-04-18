@@ -1,7 +1,69 @@
-.banner .nav li {
-  @extend .nav-item;
+.nav__url {
+  font-weight: 500;
+  font-size: calc-em(14);
+  color: $light-color;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: $primary-color;
+    text-decoration: underline;
+  }
+
+  &--dark {
+    color: #666;
+
+    &:hover {
+      color: $second-color;
+    }
+  }
 }
 
-.banner .nav a {
-  @extend .nav-link;
+//header
+
+.header {
+  background-color: rgba(17, 17, 17, 0.3);
+  padding: 20px 0;
+}
+
+// MENU
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+
+  &--footer {
+    padding: 0 0 30px;
+  }
+
+  &--header {
+    padding: 0;
+  }
+
+  &__list {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__element {
+    margin-left: 20px;
+
+    & > a {
+      @extend .nav__url;
+    }
+
+    &--dark {
+      padding: 0;
+
+      & > a {
+        @extend .nav__url;
+        @extend .nav__url--dark;
+      }
+    }
+  }
 }

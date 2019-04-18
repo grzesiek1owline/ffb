@@ -293,28 +293,28 @@
   <div class="container">
     <ul class="icon__list">
       <li class="icon__element">
-        <img src="@assets('images/001-swimming-figure-blue.svg')" alt="balonik" class="icon__img">
+        <img src="@asset('images/blue/001-swimming-figure-blue.svg')" alt="balonik" class="icon__img">
         <div class="icon__desc">
           <p class="icon__num">10</p>
           <p class="icon__info">Torów pływakich</p>
         </div>
       </li>
       <li class="icon__element">
-        <img src="@assets('images/011-relax-blue.svg')" alt="notes" class="icon__img">
+        <img src="@asset('images/blue/011-relax-blue.svg')" alt="notes" class="icon__img">
         <div class="icon__desc">
           <p class="icon__num">28 &#8451;</p>
           <p class="icon__info">Temperatra wody</p>
         </div>
       </li>
       <li class="icon__element">
-        <img src="@assets('images/004-help-lifeguard-symbol.svg')" alt="uśmiech" class="icon__img">
+        <img src="@asset('images/blue/004-help-lifeguard-symbol.svg')" alt="uśmiech" class="icon__img">
         <div class="icon__desc">
           <p class="icon__num">5</p>
           <p class="icon__info">Ratowników</p>
         </div>
       </li>
       <li class="icon__element">
-        <img src="@assets('images/021-dive-1-blue.svg')" alt="puchar" class="icon__img">
+        <img src="@asset('images/blue/021-dive-1-blue.svg')" alt="puchar" class="icon__img">
         <div class="icon__desc">
           <p class="icon__num">8</p>
           <p class="icon__info">Trenerów</p>
@@ -336,17 +336,17 @@
   <div class="container">
     <ul class="address__list">
       <li class="address__box">
-        <img src="@assets('images/home.png')" alt="" class="address_icon">
+        <img src="@asset('images/021-home-button.png')" alt="" class="address__icon">
         <p class="address__title">address</p>
         <p class="address__desc">Elizabeth Tower. 6th Floor Medtown, New York</p>
       </li>
       <li class="address__box address__box--light">
-          <img src="@assets('images/tel.png')" alt="" class="address_icon">
+          <img src="@asset('images/022-telephone-handle-silhouette.png')" alt="" class="address__icon">
           <p class="address__title">Telefon</p>
           <p class="address__desc">889 456 789</p>
         </li>
         <li class="address__box">
-            <img src="@assets('images/mail.png')" alt="" class="address_icon">
+            <img src="@asset('images/023-black-back-closed-envelope-shape.png')" alt="" class="address__icon">
             <p class="address__title">E-mail</p>
             <p class="address__desc">basen_fbb@wp.pl</p>
           </li>
@@ -364,8 +364,8 @@
 <section class="section section--vertical">
   <div class="container">
     <div class="row align-items-stretch">
-      <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center relative">
-          <div class="vertical__title text-center text-md-right relative d-block">
+      <div class="col-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-column justify-content-center relative">
+          <div class="vertical__title text-center text-md-left text-lg-right relative d-block">
               <h2 class="ttu">O NAS</h2>
               <p class="vertical__subtitle">Witaj w naszym klubie</p>
           </div>
@@ -373,7 +373,7 @@
                 <img src="" alt="">
           </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-8">
+      <div class="col-12 col-md-12 col-lg-6 col-xl-8">
           <div class="vertical__desc">
               <p class="mb-4 pb-3">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationulaco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repdan tiutrpeam, eaque ipsa quae ab illo inventore veritatis et qua.<br/>
@@ -496,12 +496,337 @@
         <input class="input input--half"  type="email" placeholder="Adres email" required>
         <input class="input input--half"  type="tel" placeholder="Telefon">
         <input class="input input--full"  type="text" placeholder="Temat">
-        <textarea class="textarea" placeholder="treść wiadomości"></textarea>
+        <textarea class="textarea" placeholder="Treść wiadomości"></textarea>
         <input class="post__perm" type="submit" value="Wyślij wiadomość">
       </form>
     </div>
   </div>
 </section>
+
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>MAPA</h2>
+  <div class="mb-4"></div>
+</div>
+
+<section class="section section--map">
+    <div id="map">
+
+    </div>
+</section>
+
+<script>
+    var map;
+            var lat=54.441821;
+            var lng=18.559612;
+            var zoom=10;
+            function initialize() {
+                var myLatlng = new google.maps.LatLng(lat,lng);
+                var myOptions = {
+                    zoom: zoom,
+                    center: myLatlng,
+                    mapTypeId: google.maps.MapTypeId.hybrid,
+                    styles: [
+                      {
+                          "featureType": "water",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#e9e9e9"
+                              },
+                              {
+                                  "lightness": 17
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "landscape",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#f5f5f5"
+                              },
+                              {
+                                  "lightness": 20
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "road.highway",
+                          "elementType": "geometry.fill",
+                          "stylers": [
+                              {
+                                  "color": "#ffffff"
+                              },
+                              {
+                                  "lightness": 17
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "road.highway",
+                          "elementType": "geometry.stroke",
+                          "stylers": [
+                              {
+                                  "color": "#ffffff"
+                              },
+                              {
+                                  "lightness": 29
+                              },
+                              {
+                                  "weight": 0.2
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "road.arterial",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#ffffff"
+                              },
+                              {
+                                  "lightness": 18
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "road.local",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#ffffff"
+                              },
+                              {
+                                  "lightness": 16
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "poi",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#f5f5f5"
+                              },
+                              {
+                                  "lightness": 21
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "poi.park",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#dedede"
+                              },
+                              {
+                                  "lightness": 21
+                              }
+                          ]
+                      },
+                      {
+                          "elementType": "labels.text.stroke",
+                          "stylers": [
+                              {
+                                  "visibility": "on"
+                              },
+                              {
+                                  "color": "#ffffff"
+                              },
+                              {
+                                  "lightness": 16
+                              }
+                          ]
+                      },
+                      {
+                          "elementType": "labels.text.fill",
+                          "stylers": [
+                              {
+                                  "saturation": 36
+                              },
+                              {
+                                  "color": "#333333"
+                              },
+                              {
+                                  "lightness": 40
+                              }
+                          ]
+                      },
+                      {
+                          "elementType": "labels.icon",
+                          "stylers": [
+                              {
+                                  "visibility": "off"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "transit",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#f2f2f2"
+                              },
+                              {
+                                  "lightness": 19
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "administrative",
+                          "elementType": "geometry.fill",
+                          "stylers": [
+                              {
+                                  "color": "#fefefe"
+                              },
+                              {
+                                  "lightness": 20
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "administrative",
+                          "elementType": "geometry.stroke",
+                          "stylers": [
+                              {
+                                  "color": "#fefefe"
+                              },
+                              {
+                                  "lightness": 17
+                              },
+                              {
+                                  "weight": 1.2
+                              }
+                          ]
+                      }
+                  ]
+                }
+                var map = new google.maps.Map(document.getElementById("map"), myOptions);
+                 
+                var markers = [
+                    ['Sports-Med gabinet dietetyczny Gdynia', 54.521399, 18.532161],
+					          ['Sports-Med gabinet dietetyczny Gdańsk', 54.371058, 18.597572]
+                ];
+                 
+                var image = '<?php echo get_template_directory_uri(); ?>/../dist/images/001-maps-and-flags.png';
+                                 
+                for (var i = 0; i < markers.length; i++) {
+                    var draftMarker = markers[i];
+                    var myLatLng = new google.maps.LatLng(draftMarker[1], draftMarker[2]);
+                    var marker = new google.maps.Marker({
+                        position: myLatLng,
+                        map: map,
+                        title: draftMarker[0],
+                        icon: image
+                    });
+                }
+            }   
+
+            $body.append(el);
+            el.onload = initialize();
+            el.src = script;
+
+            
+</script>
+<script defer src="https://maps.google.com/maps/api/js?key=AIzaSyBkJcRS9_dSttwtBABTAe9dpPl-hTPWGvM&callback=initialize" type="text/javascript"> </script>
+
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>Small Form</h2>
+  <div class="mb-4"></div>
+
+</div>
+
+<section>
+  <div class="container">
+    <div class="row flex-column align-items-center flex-lg-row align-items-md-center">
+      <div class="col text-lg-right mb-5 mb-md-0 pr-0 pr-md-3 pr-lg-4">
+        <p class="h1 ttu">Zadaj nam pytanie</p>
+        <p>Interesują Cię szczegóły zakupu karnetu, planu zajęć czy dane techniczne naszego obiektu? Napisz do nas, a odpowiemy najszybciej jak to możliwe!</p>
+      </div>
+      <div class="col">
+        <div class="contact__wrapper contact__wrapper--small">
+          <div class="section__title d-block text-center">
+            <h2 class="ttu bold">Formularz kontaktowy</h2>
+            <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
+          </div>
+          <form action="">
+            <input class="input input--half"  type="text" placeholder="Imię" required>
+            <input class="input input--half"  type="text" placeholder="Nazwisko">
+            <input class="input input--half"  type="email" placeholder="Adres email" required>
+            <input class="input input--half"  type="tel" placeholder="Telefon">
+            <input class="input input--full"  type="text" placeholder="Temat">
+            <textarea class="textarea" placeholder="Treść wiadomości"></textarea>
+            <div class="mx-auto d-block text-center">
+            <input class="post__perm" type="submit" value="Wyślij wiadomość">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>footer</h2>
+  <div class="mb-4"></div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <nav class="menu menu--footer">
+      <a href="">
+        <img src="" alt="logo">
+      </a>
+      <ul class="menu__list">
+        <li class="menu__element menu__element--dark"><a href="">option</a></li>
+        <li class="menu__element menu__element--dark"><a href="">option</a></li>
+        <li class="menu__element menu__element--dark"><a href="">option</a></li>
+        <li class="menu__element menu__element--dark"><a href="">option</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="footer__bottom">
+    <p>Copyright @ 2019 domena.com</p>
+  </div> 
+</footer>
+
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>HEADER</h2>
+  <div class="mb-4"></div>
+</div>
+
+<header class="header">
+  <div class="container">
+    <nav class="menu menu--header">
+      <a href="">
+        <img src="" alt="logo">
+      </a>
+      <ul class="menu__list">
+        <li class="menu__element"><a href="">option</a></li>
+        <li class="menu__element"><a href="">option</a></li>
+        <li class="menu__element"><a href="">option</a></li>
+        <li class="menu__element"><a href="">option</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>GALLERY</h2>
+  <div class="mb-4"></div>
+</div>
 
 <div class="d-block pb-5 mb-5"></div>
 
