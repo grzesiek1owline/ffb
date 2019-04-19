@@ -361,6 +361,33 @@
     <div class="mb-4"></div>
 </div>
 
+<section class="section section--vertical section--vertical-bg">
+  <div class="container">
+    <div class="row align-items-stretch">
+      <div class="col-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-column justify-content-center relative">
+          <div class="vertical__title text-center text-md-left text-lg-right relative d-block">
+              <h2 class="ttu">O NAS</h2>
+              <p class="vertical__subtitle">Witaj w naszym klubie</p>
+          </div>
+          <div class="vertical__bg vertical__bg--left">
+          </div>
+      </div>
+      <div class="col-12 col-md-12 col-lg-6 col-xl-8">
+          <div class="vertical__desc">
+              <p class="mb-4 pb-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationulaco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repdan tiutrpeam, eaque ipsa quae ab illo inventore veritatis et qua.<br/>
+                  <br/>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationulaco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repdan tiutrpeam, eaque ipsa quae ab illo inventore veritatis et qua
+              </p>
+              <a href="#" class="post__perm">Czytaj dalej...</a>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="mb-5 mt-5 d-block"></div>
+
 <section class="section section--vertical">
   <div class="container">
     <div class="row align-items-stretch">
@@ -370,7 +397,6 @@
               <p class="vertical__subtitle">Witaj w naszym klubie</p>
           </div>
           <div class="vertical__bg vertical__bg--left">
-                <img src="" alt="">
           </div>
       </div>
       <div class="col-12 col-md-12 col-lg-6 col-xl-8">
@@ -510,16 +536,219 @@
   <div class="mb-4"></div>
 </div>
 
-<section class="section section--map">
+<!-- <section class="section section--map">
     <div id="map">
 
     </div>
+</section> -->
+
+
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>Small Form</h2>
+  <div class="mb-4"></div>
+
+</div>
+
+<section>
+  <div class="container">
+    <div class="row flex-column align-items-center flex-lg-row align-items-md-center">
+      <div class="col text-lg-right mb-5 mb-lg-0 pr-0 pr-md-3 pr-lg-4">
+        <p class="h1 ttu">Zadaj nam pytanie</p>
+        <p>Interesują Cię szczegóły zakupu karnetu, planu zajęć czy dane techniczne naszego obiektu? Napisz do nas, a odpowiemy najszybciej jak to możliwe!</p>
+      </div>
+      <div class="col">
+        <div class="contact__wrapper contact__wrapper--small">
+          <div class="section__title d-block text-center">
+            <h2 class="ttu bold">Formularz kontaktowy</h2>
+            <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
+          </div>
+          <form action="">
+            <input class="input input--half"  type="text" placeholder="Imię" required>
+            <input class="input input--half"  type="text" placeholder="Nazwisko">
+            <input class="input input--half"  type="email" placeholder="Adres email" required>
+            <input class="input input--half"  type="tel" placeholder="Telefon">
+            <input class="input input--full"  type="text" placeholder="Temat">
+            <textarea class="textarea" placeholder="Treść wiadomości"></textarea>
+            <div class="mx-auto d-block text-center">
+            <input class="post__perm" type="submit" value="Wyślij wiadomość">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>footer</h2>
+  <div class="mb-4"></div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <nav class="menu menu--footer">
+      <a href="">
+        <img src="" alt="logo">
+      </a>
+      <ul class="menu__list">
+        <li class="menu__element menu__element--dark"><a href="">option</a></li>
+        <li class="menu__element menu__element--dark"><a href="">option</a></li>
+        <li class="menu__element menu__element--dark"><a href="">option</a></li>
+        <li class="menu__element menu__element--dark"><a href="">option</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="footer__bottom">
+    <p>Copyright @ 2019 domena.com</p>
+  </div> 
+</footer>
+
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>HEADER</h2>
+  <div class="mb-4"></div>
+</div>
+
+<header class="header">
+  <div class="container">
+    <nav class="menu menu--header">
+      <a href="">
+        <img src="" alt="logo">
+      </a>
+      <ul class="menu__list">
+        <li class="menu__element"><a href="">option</a></li>
+        <li class="menu__element"><a href="">option</a></li>
+        <li class="menu__element"><a href="">option</a></li>
+        <li class="menu__element"><a href="">option</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>GALLERY</h2>
+  <div class="mb-4"></div>
+</div>
+
+<section class="section section--gallery">
+<div class="gallery__wrapper">
+  <div class="gallery__cell gallery__cell--1">         
+    <div class="gallery__element"><a href=""><img src="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg" alt=""></a></div>
+  </div>
+  <div class="gallery__cell gallery__cell--2">
+    <div class="gallery__element gallery__element--small"><a href=""><img src="https://www.canva.com/learn/wp-content/uploads/2018/11/best-free-stock-photos.jpg" alt=""></a></div>
+    <div class="gallery__element gallery__element--small gallery__element--wider"><a href=""><img src="https://www.harvard.edu/sites/default/files/feature_item_media/021317_features_RL_0077.jpg" alt=""></a></div>
+    <div class="gallery__element gallery__element--small"><a href=""><img src="https://www.canva.com/learn/wp-content/uploads/2018/11/best-free-stock-photos.jpg" alt=""></a></div>
+    <div class="gallery__element gallery__element--small"><a href=""><img src="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg" alt=""></a></div>
+    <div class="gallery__element gallery__element--small"><a href=""><img src="https://cdn.theatlantic.com/assets/media/img/photo/2018/01/photos-of-the-new-year-ringing-in-2/n01_AP18001109875267/main_900.jpg?1514830351" alt=""></a></div>
+  </div>
+  <div class="gallery__cell gallery__cell--1">
+    <div class="gallery__element gallery__element--higher"><a href=""><img src="https://cdn.theatlantic.com/assets/media/img/photo/2018/01/photos-of-the-new-year-ringing-in-2/n01_AP18001109875267/main_900.jpg?1514830351" alt=""></a></div>
+  </div>
+</div>
+</section>
+
+
+
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>BANER z IKONĄ</h2>
+  <div class="mb-4"></div>
+</div>
+
+<section class="section section--baner py-5 bg--primary font--light">  <!-- opcjonalnie bg--second + niżej opcjonalny rozkład - klasy bootstrap-a-->
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row justify-content-center align-items-center"> 
+      <div class="baner__text text-center text-md-right mr-0 mr-md-5">
+        <p class="h2 mb-2">Darmowy transport!</p>
+        <p class="mb-4 mb-md-0">Dla grup zorganizowanych zapewniamy transport w dwie strony!</p>
+      </div>
+      <img class="baner__ico" src="@asset('images/001-bus.png')" alt="transport">
+    </div>
+  </div>
+</section>
+
+<div class="d-block pb-5 mb-5"></div>
+
+<section class="section section--baner py-5 bg--second font--light"> <!-- opcjonalnie bg--second -->
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row-reverse justify-content-center align-items-center">
+      <div class="baner__text text-center text-md-left ml-0 ml-md-5">
+        <p class="h2 mb-2">Darmowy transport!</p>
+        <p class="mb-4 mb-md-0">Dla grup zorganizowanych zapewniamy transport w dwie strony!</p>
+      </div>
+      <img class="baner__ico" src="@asset('images/001-bus.png')" alt="transport">
+    </div>       
+  </div>
+</section>
+
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>BANER Z TŁEM</h2>
+  <div class="mb-4"></div>
+</div>
+
+<section class="section relative section--baner section--baner-bg py-5">  <!-- opcjonalnie bg--second -->
+<img class="baner__bg" src="https://cdn.flixbus.de/2017-06/driving-flixbus.jpg" alt="">
+  <div class="container">
+      <div class="w-100 baner__text baner__text--bg text-center text-lg-left">
+        <p class="h1 mb-2">Darmowy transport!</p>
+        <p class="mb-4 mb-md-0">Dla grup zorganizowanych zapewniamy transport w dwie strony! Dla grup zorganizowanych zapewniamy transport w dwie strony.</p>
+        <div class="pt-5 d-block">
+          <a href="#" class="post__perm">Skontaktuj się z nami</a>
+        </div>
+      </div>
+  </div>
+</section>
+
+<div class="d-block pb-5 mb-5"></div>
+
+<!-- Title -->
+<div class="container">
+  <div class="mt-5"></div>
+  <h2>kontakt z mapą</h2>
+  <div class="mb-4"></div>
+</div>
+
+<section class="section section__contact-map">
+  <div class="container">
+    <div class="contact__wrapper relative" style="z-index:5">
+      <div class="section__title d-block text-center">
+        <h2 class="ttu bold">Kontakt z nami</h2>
+        <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
+      </div>
+      <form action="">
+        <input class="input input--half"  type="text" placeholder="Imię" required>
+        <input class="input input--half"  type="text" placeholder="Nazwisko">
+        <input class="input input--half"  type="email" placeholder="Adres email" required>
+        <input class="input input--half"  type="tel" placeholder="Telefon">
+        <input class="input input--full"  type="text" placeholder="Temat">
+        <textarea class="textarea" placeholder="Treść wiadomości"></textarea>
+        <input class="post__perm" type="submit" value="Wyślij wiadomość">
+      </form>
+    </div>
+  </div>
+  
+    <div id="map-split">
+    </div>
+  
 </section>
 
 <script>
-    var map;
-            var lat=54.441821;
-            var lng=18.559612;
+  //['Body Beauty Fit', 52.165351, 21.076764]
+      var map;
+            var lat=52.165351;
+            var lng=21.076764;
             var zoom=10;
             function initialize() {
                 var myLatlng = new google.maps.LatLng(lat,lng);
@@ -704,11 +933,10 @@
                       }
                   ]
                 }
-                var map = new google.maps.Map(document.getElementById("map"), myOptions);
+                var map = new google.maps.Map(document.getElementById("map-split"), myOptions);
                  
                 var markers = [
-                    ['Sports-Med gabinet dietetyczny Gdynia', 54.521399, 18.532161],
-					          ['Sports-Med gabinet dietetyczny Gdańsk', 54.371058, 18.597572]
+                    ['Body Beauty Fit', 52.165351, 21.076764]
                 ];
                  
                 var image = '<?php echo get_template_directory_uri(); ?>/../dist/images/001-maps-and-flags.png';
@@ -725,111 +953,13 @@
                 }
             }   
 
-            $body.append(el);
+            jQuery('body').append(el);
             el.onload = initialize();
             el.src = script;
 
             
 </script>
 <script defer src="https://maps.google.com/maps/api/js?key=AIzaSyBkJcRS9_dSttwtBABTAe9dpPl-hTPWGvM&callback=initialize" type="text/javascript"> </script>
-
-<!-- Title -->
-<div class="container">
-  <div class="mt-5"></div>
-  <h2>Small Form</h2>
-  <div class="mb-4"></div>
-
-</div>
-
-<section>
-  <div class="container">
-    <div class="row flex-column align-items-center flex-lg-row align-items-md-center">
-      <div class="col text-lg-right mb-5 mb-md-0 pr-0 pr-md-3 pr-lg-4">
-        <p class="h1 ttu">Zadaj nam pytanie</p>
-        <p>Interesują Cię szczegóły zakupu karnetu, planu zajęć czy dane techniczne naszego obiektu? Napisz do nas, a odpowiemy najszybciej jak to możliwe!</p>
-      </div>
-      <div class="col">
-        <div class="contact__wrapper contact__wrapper--small">
-          <div class="section__title d-block text-center">
-            <h2 class="ttu bold">Formularz kontaktowy</h2>
-            <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
-          </div>
-          <form action="">
-            <input class="input input--half"  type="text" placeholder="Imię" required>
-            <input class="input input--half"  type="text" placeholder="Nazwisko">
-            <input class="input input--half"  type="email" placeholder="Adres email" required>
-            <input class="input input--half"  type="tel" placeholder="Telefon">
-            <input class="input input--full"  type="text" placeholder="Temat">
-            <textarea class="textarea" placeholder="Treść wiadomości"></textarea>
-            <div class="mx-auto d-block text-center">
-            <input class="post__perm" type="submit" value="Wyślij wiadomość">
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Title -->
-<div class="container">
-  <div class="mt-5"></div>
-  <h2>footer</h2>
-  <div class="mb-4"></div>
-</div>
-
-<footer class="footer">
-  <div class="container">
-    <nav class="menu menu--footer">
-      <a href="">
-        <img src="" alt="logo">
-      </a>
-      <ul class="menu__list">
-        <li class="menu__element menu__element--dark"><a href="">option</a></li>
-        <li class="menu__element menu__element--dark"><a href="">option</a></li>
-        <li class="menu__element menu__element--dark"><a href="">option</a></li>
-        <li class="menu__element menu__element--dark"><a href="">option</a></li>
-      </ul>
-    </nav>
-  </div>
-  <div class="footer__bottom">
-    <p>Copyright @ 2019 domena.com</p>
-  </div> 
-</footer>
-
-<!-- Title -->
-<div class="container">
-  <div class="mt-5"></div>
-  <h2>HEADER</h2>
-  <div class="mb-4"></div>
-</div>
-
-<header class="header">
-  <div class="container">
-    <nav class="menu menu--header">
-      <a href="">
-        <img src="" alt="logo">
-      </a>
-      <ul class="menu__list">
-        <li class="menu__element"><a href="">option</a></li>
-        <li class="menu__element"><a href="">option</a></li>
-        <li class="menu__element"><a href="">option</a></li>
-        <li class="menu__element"><a href="">option</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-
-<!-- Title -->
-<div class="container">
-  <div class="mt-5"></div>
-  <h2>GALLERY</h2>
-  <div class="mb-4"></div>
-</div>
-
 <div class="d-block pb-5 mb-5"></div>
-
-
 @endwhile
 @endsection

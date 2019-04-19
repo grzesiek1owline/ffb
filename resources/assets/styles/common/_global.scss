@@ -70,3 +70,18 @@ ul {
   color: $primary-color;
 }
 
+.bg--primary {
+  background-color: $primary-color;
+}
+
+.bg--second {
+  background-color: $second-color;
+}
+
+.font--light {
+  color: $light-color;
+}
+
+.relative {
+  position: relative;
+}
