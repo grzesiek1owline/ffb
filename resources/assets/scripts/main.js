@@ -6,6 +6,7 @@ import './autoload/**/*'
 
 // Import Slick
 import 'slick-carousel/slick/slick.min';
+import 'simplelightbox/dist/simple-lightbox.min.js';
 
 // import local dependencies
 import Router from './util/Router';

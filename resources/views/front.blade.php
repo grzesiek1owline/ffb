@@ -641,17 +641,17 @@
 <section class="section section--gallery">
 <div class="gallery__wrapper">
   <div class="gallery__cell gallery__cell--1">         
-    <div class="gallery__element"><a href=""><img src="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg" alt=""></a></div>
+    <div class="gallery__element"><a href="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg"><img src="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg" alt=""></a></div>
   </div>
   <div class="gallery__cell gallery__cell--2">
-    <div class="gallery__element gallery__element--small"><a href=""><img src="https://www.canva.com/learn/wp-content/uploads/2018/11/best-free-stock-photos.jpg" alt=""></a></div>
-    <div class="gallery__element gallery__element--small gallery__element--wider"><a href=""><img src="https://www.harvard.edu/sites/default/files/feature_item_media/021317_features_RL_0077.jpg" alt=""></a></div>
-    <div class="gallery__element gallery__element--small"><a href=""><img src="https://www.canva.com/learn/wp-content/uploads/2018/11/best-free-stock-photos.jpg" alt=""></a></div>
-    <div class="gallery__element gallery__element--small"><a href=""><img src="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg" alt=""></a></div>
-    <div class="gallery__element gallery__element--small"><a href=""><img src="https://cdn.theatlantic.com/assets/media/img/photo/2018/01/photos-of-the-new-year-ringing-in-2/n01_AP18001109875267/main_900.jpg?1514830351" alt=""></a></div>
+    <div class="gallery__element gallery__element--small"><a href="https://www.canva.com/learn/wp-content/uploads/2018/11/best-free-stock-photos.jpg"><img src="https://www.canva.com/learn/wp-content/uploads/2018/11/best-free-stock-photos.jpg" alt=""></a></div>
+    <div class="gallery__element gallery__element--small gallery__element--wider"><a href="https://www.harvard.edu/sites/default/files/feature_item_media/021317_features_RL_0077.jpg"><img src="https://www.harvard.edu/sites/default/files/feature_item_media/021317_features_RL_0077.jpg" alt=""></a></div>
+    <div class="gallery__element gallery__element--small"><a href="https://www.canva.com/learn/wp-content/uploads/2018/11/best-free-stock-photos.jpg"><img src="https://www.canva.com/learn/wp-content/uploads/2018/11/best-free-stock-photos.jpg" alt=""></a></div>
+    <div class="gallery__element gallery__element--small"><a href="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg"><img src="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg" alt=""></a></div>
+    <div class="gallery__element gallery__element--small"><a href="https://cdn.theatlantic.com/assets/media/img/photo/2018/01/photos-of-the-new-year-ringing-in-2/n01_AP18001109875267/main_900.jpg?1514830351"><img src="https://cdn.theatlantic.com/assets/media/img/photo/2018/01/photos-of-the-new-year-ringing-in-2/n01_AP18001109875267/main_900.jpg?1514830351" alt=""></a></div>
   </div>
   <div class="gallery__cell gallery__cell--1">
-    <div class="gallery__element gallery__element--higher"><a href=""><img src="https://cdn.theatlantic.com/assets/media/img/photo/2018/01/photos-of-the-new-year-ringing-in-2/n01_AP18001109875267/main_900.jpg?1514830351" alt=""></a></div>
+    <div class="gallery__element gallery__element--higher"><a href="https://cdn.theatlantic.com/assets/media/img/photo/2018/01/photos-of-the-new-year-ringing-in-2/n01_AP18001109875267/main_900.jpg?1514830351"><img src="https://cdn.theatlantic.com/assets/media/img/photo/2018/01/photos-of-the-new-year-ringing-in-2/n01_AP18001109875267/main_900.jpg?1514830351" alt=""></a></div>
   </div>
 </div>
 </section>
@@ -952,10 +952,10 @@
                     });
                 }
             }   
-
-            jQuery('body').append(el);
-            el.onload = initialize();
-            el.src = script;
+            // el.onload = initialize();
+            // jQuery('body').append(el);
+            
+            // el.src = script;
 
             
 </script>
