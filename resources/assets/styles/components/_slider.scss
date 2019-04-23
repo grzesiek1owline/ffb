@@ -1,0 +1,180 @@
+.slider {
+  width: 100%;
+  overflow: hidden;
+  height: 600px;
+  color: #fff;
+
+  &__element {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &.slick-active {
+      padding: 0;
+    }
+  }
+
+  &__navigation {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  &__text {
+    width: 600px;
+    max-width: 80%;
+  }
+}
+
+.slick-track,
+.slick-list {
+  height: 100%;
+}
+
+.arrow__new {
+  height: 60px;
+  width: 90px;
+  position: relative;
+  background: $second-color;
+  border: none;
+  cursor: pointer;
+  opacity: 0.65;
+  transition: all 0.2s ease;
+}
+
+.slider__arrow--prev {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.arrow__new:hover {
+  opacity: 1;
+}
+
+.arrow__new::before {
+  width: 25px;
+  height: 2px;
+  background: #fff;
+  margin-top: -1px;
+  right: 24px;
+}
+
+.arrow__new::after,
+.arrow__new::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transition: all 0.3s ease;
+}
+
+.arrow__new::after {
+  width: 0;
+  height: 0;
+  border-color: transparent transparent transparent #fff;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  margin-top: -5px;
+  right: 20px;
+}
+
+.arrow__new:hover::before {
+  right: 34px;
+  width: 35px;
+}
+
+.arrow__new:hover::after {
+  right: 34px;
+  right: 30px;
+}
+
+.arrow__new--no-bg {
+  background: transparent;
+}
+
+.arrow__new--no-bg::before {
+  background: #202020;
+}
+
+.arrow__new--no-bg::after {
+  border-color: transparent transparent transparent #202020;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.slider__element.slick-active .container .row p.ff2 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.slider__element.slick-active .container .row h1,
+.slider__element.slick-active .container .row p.h1 {
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.slider__element.slick-active .container .row p {
+  -webkit-animation-duration: 1.4s;
+  animation-duration: 1.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}

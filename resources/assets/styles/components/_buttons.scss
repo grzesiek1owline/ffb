@@ -14,5 +14,13 @@
       background-color: $light-color;
       text-decoration: none;
     }
+
+    &--transparent {
+      font-size: calc-em(14);
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
   }
 }

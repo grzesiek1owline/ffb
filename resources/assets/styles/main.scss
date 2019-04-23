@@ -11,6 +11,10 @@
  */
 // @import "~some-node-module";
 
+// Import Slick
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+
 /** Import theme styles */
 @import "common/functions";
 @import "common/mixins";
@@ -21,6 +25,7 @@
 @import "components/forms";
 @import "components/wp-classes";
 @import "components/gallery";
+@import "components/slider";
 @import "components/icons-block";
 @import "layouts/header";
 @import "layouts/sidebar";
