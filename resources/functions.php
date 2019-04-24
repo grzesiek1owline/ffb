@@ -90,3 +90,9 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
+
+
+    function register_my_menu() {
+        register_nav_menu('footer-menu',__( 'Footer Menu' ));
+      }
+      add_action( 'init', 'register_my_menu' );

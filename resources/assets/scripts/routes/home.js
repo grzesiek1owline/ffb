@@ -11,6 +11,17 @@ export default {
       prevArrow: jQuery('.slider__arrow--prev'),
       nextArrow: jQuery('.slider__arrow--next'),
     });
+
+    jQuery('.opinion__list').slick({
+      arrows: false,
+      dots: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      appendDots: jQuery('.dots'),
+      initialSlide: 1,
+    });
+
   },
   finalize() {
     jQuery('.gallery__element a').simpleLightbox();

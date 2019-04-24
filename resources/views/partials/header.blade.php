@@ -1,10 +1,28 @@
-<header class="banner">
+<header class="header">
   <div class="container">
-    <a class="brand" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>
-    <nav class="nav-primary">
+    <nav class="menu menu--header">
+      <a href="{{ home_url('/') }}">
+        <img src="" alt="logo">
+      </a>
+      {{-- <ul class="menu__list">
+        <li class="menu__element"><a href="">option</a></li>
+        <li class="menu__element"><a href="">option</a></li>
+        <li class="menu__element"><a href="">option</a></li>
+        <li class="menu__element"><a href="">option</a></li>
+      </ul> --}}
       @if (has_nav_menu('primary_navigation'))
-        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
+        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'menu__list']) !!}
       @endif
     </nav>
   </div>
 </header>
+
+@if(is_front_page())
+  @include('partials.page-slider')
+@else
+  @include('partials.page-title')
+@endif
+ 
+
+
+
