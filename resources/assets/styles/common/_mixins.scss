@@ -159,7 +159,7 @@
   background: $color;
 
   /* The Fallback */
-  background: rgba($color, $opacity);
+  background: rgba($color, $opacity) !important;
 }
 
 // hex  border opacity
