@@ -11,36 +11,36 @@
   <ul class="info-box__list">
     <li class="info-box__element">
       <img src="@asset('images/021-dive-1.png')" alt="ico" class="info-box__icon">
-      <p class="info-box__title">Lifeguard certification</p>
+      <p class="info-box__title">Certyfikowani ratownicy</p>
       <p class="info-box__desc">
         Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.
       </p>
     </li>
     <li class="info-box__element info-box__element--light">
       <img src="@asset('images/016-waves.png')" alt="ico" class="info-box__icon">
-      <p class="info-box__title">Experienced management</p>
+      <p class="info-box__title">Bezpieczeństwo</p>
       <p class="info-box__desc">
         Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.
       </p>
     </li>
     <li class="info-box__element">
-      <img src="@asset('images/021-dive-1.png')" alt="ico" class="info-box__icon">
-      <p class="info-box__title">Lifeguard certification</p>
+      <img src="@asset('images/011-relax.png')" alt="ico" class="info-box__icon">
+      <p class="info-box__title">Strefa relaksu</p>
       <p class="info-box__desc">
         Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.
       </p>
     </li>
     <li class="info-box__element info-box__element--light">
-      <img src="@asset('images/016-waves.png')" alt="ico" class="info-box__icon">
-      <p class="info-box__title">Experienced management</p>
+      <img src="@asset('images/025-thermometer-1.png')" alt="ico" class="info-box__icon">
+      <p class="info-box__title">Idealna temperatura</p>
       <p class="info-box__desc">
-        Lorem ipsum dolor sit amet, consect sectetur adipisicing elit.
+        Woda o temperaturze 25 stopni gwarantuje komfort użytkowania.
       </p>
     </li>
   </ul>
 </div>
 
-<section class="section section--bg">
+<section class="section section--bg pb-5">
   <div class="container">
     <div class="section__title d-block text-center">
       <h2 class="ttu bold">Aktualności</h2>
@@ -49,7 +49,7 @@
     <div class="post__newest">
       <div class="post__thumb post__thumb--newest">
         <img
-          src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23"
+          src="@asset('images/unsplash-12.jpg')"
           alt="title">
         <div class="post__overlay"></div>
         <div class="post__date">
@@ -75,7 +75,7 @@
         <div class="post__single">
           <div class="post__thumb">
             <img
-              src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23"
+              src="@asset('images/unsplash-12.jpg')"
               alt="title">
             <div class="post__overlay"></div>
             <div class="post__date">
@@ -96,7 +96,7 @@
         <div class="post__single">
           <div class="post__thumb">
             <img
-              src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23"
+              src="@asset('images/unsplash-12.jpg')"
               alt="title">
             <div class="post__overlay"></div>
             <div class="post__date">
@@ -117,7 +117,7 @@
         <div class="post__single">
           <div class="post__thumb">
             <img
-              src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23"
+              src="@asset('images/unsplash-12.jpg')"
               alt="title">
             <div class="post__overlay"></div>
             <div class="post__date">
@@ -179,7 +179,67 @@
       <li class="service__element">
         <div class="service__top">
           <img class="service__image"
-            src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23"
+            src="@asset('images/unsplash-12.jpg')"
+            alt="">
+          <div class="service__overlay"></div>
+          <div class="service__desc">
+            <p class="paragraph paragraph--small">Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem
+              ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="service__title">
+          <h3>basen</h3>
+        </div>
+      </li>
+      <li class="service__element">
+        <div class="service__top">
+          <img class="service__image"
+            src="@asset('images/unsplash-15.jpg')"
+            alt="">
+          <div class="service__overlay"></div>
+          <div class="service__desc">
+            <p class="paragraph paragraph--small">Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem
+              ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="service__title">
+          <h3>nauka pływania</h3>
+        </div>
+      </li>
+      <li class="service__element">
+        <div class="service__top">
+          <img class="service__image"
+            src="@asset('images/unsplash-16.jpg')"
+            alt="">
+          <div class="service__overlay"></div>
+          <div class="service__desc">
+            <p class="paragraph paragraph--small">Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem
+              ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="service__title">
+          <h3>aqua aerobic</h3>
+        </div>
+      </li>
+      <li class="service__element">
+        <div class="service__top">
+          <img class="service__image"
+            src="@asset('images/unsplash-20.jpg')"
+            alt="">
+          <div class="service__overlay"></div>
+          <div class="service__desc">
+            <p class="paragraph paragraph--small">Lorem ipsum dolor sit amet, consect sectetur adipisicing elit. Lorem
+              ipsum dolor sit amet, consect sectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="service__title">
+          <h3>fitness</h3>
+        </div>
+      </li>
+      <li class="service__element">
+        <div class="service__top">
+          <img class="service__image"
+            src="@asset('images/unsplash-23.jpg')"
             alt="">
           <div class="service__overlay"></div>
           <div class="service__desc">
@@ -191,10 +251,11 @@
           <h3>treningi personalne</h3>
         </div>
       </li>
+
       <li class="service__element">
         <div class="service__top">
           <img class="service__image"
-            src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23"
+            src="@asset('images/unsplash-11.jpg')"
             alt="">
           <div class="service__overlay"></div>
           <div class="service__desc">
@@ -203,13 +264,13 @@
           </div>
         </div>
         <div class="service__title">
-          <h3>treningi personalne</h3>
+          <h3>sprzęt cardio</h3>
         </div>
       </li>
       <li class="service__element">
         <div class="service__top">
           <img class="service__image"
-            src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23"
+            src="@asset('images/unsplash-10.jpg')"
             alt="">
           <div class="service__overlay"></div>
           <div class="service__desc">
@@ -218,13 +279,14 @@
           </div>
         </div>
         <div class="service__title">
-          <h3>treningi personalne</h3>
+          <h3>łaźnia parowa</h3>
         </div>
       </li>
+
       <li class="service__element">
         <div class="service__top">
           <img class="service__image"
-            src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23"
+            src="@asset('images/unsplash-1.jpg')"
             alt="">
           <div class="service__overlay"></div>
           <div class="service__desc">
@@ -233,13 +295,14 @@
           </div>
         </div>
         <div class="service__title">
-          <h3>treningi personalne</h3>
+          <h3>sauna sucha</h3>
         </div>
       </li>
+
       <li class="service__element">
         <div class="service__top">
           <img class="service__image"
-            src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t1.0-9/10685522_450606181743747_1899337410481724985_n.jpg?_nc_cat=100&_nc_ht=scontent.fwaw3-2.fna&oh=7035c0ba3d728f55faaf6e59b24da6a7&oe=5D37FF23"
+            src="@asset('images/unsplash-19.jpg')"
             alt="">
           <div class="service__overlay"></div>
           <div class="service__desc">
@@ -248,7 +311,7 @@
           </div>
         </div>
         <div class="service__title">
-          <h3>treningi personalne</h3>
+          <h3>yoga</h3>
         </div>
       </li>
 
@@ -421,6 +484,18 @@
     </ul>
     <div class="text-center bold mt-5 pt-3">
       <a href="#" class="post__perm">Zobacz pełen cennik</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--baner py-5 bg--primary font--light">  <!-- opcjonalnie bg--second + niżej opcjonalny rozkład - klasy bootstrap-a-->
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row justify-content-center align-items-center"> 
+      <div class="baner__text text-center text-md-right mr-0 mr-md-5">
+        <p class="h2 mb-2">Darmowy transport!</p>
+        <p class="mb-4 mb-md-0">Dla grup zorganizowanych zapewniamy transport w dwie strony!</p>
+      </div>
+      <img class="baner__ico" src="@asset('images/001-bus.png')" alt="transport">
     </div>
   </div>
 </section>

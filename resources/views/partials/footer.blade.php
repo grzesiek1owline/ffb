@@ -7,7 +7,7 @@
   <div class="container">
     <nav class="menu menu--footer">
       <a href="">
-        <img src="" alt="logo">
+        <img height="60px" src="@asset('images/body.png')" alt="logo">
       </a>
       @if (has_nav_menu('footer-menu'))
       {!! wp_nav_menu(['theme_location' => 'footer-menu', 'menu_class' => 'menu__list menu__list--dark']) !!}

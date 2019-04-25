@@ -2,7 +2,7 @@
   <div class="container">
     <nav class="menu menu--header">
       <a href="{{ home_url('/') }}">
-        <img src="" alt="logo">
+        <img height="60px" src="@asset('images/body.png')" alt="logo">
       </a>
       {{-- <ul class="menu__list">
         <li class="menu__element"><a href="">option</a></li>
