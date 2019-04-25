@@ -239,7 +239,7 @@
       </script>
       <script defer src="https://maps.google.com/maps/api/js?key=AIzaSyBkJcRS9_dSttwtBABTAe9dpPl-hTPWGvM&callback=initialize" type="text/javascript"> </script>
 
-<section class="section pb-5">
+<aside class="section pb-5">
   <div class="container">
     <ul class="address__list">
       <li class="address__box">
@@ -259,4 +259,4 @@
           </li>
     </ul>
   </div>
-</section>
+</aside>

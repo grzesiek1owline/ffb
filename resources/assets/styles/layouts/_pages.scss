@@ -29,6 +29,14 @@
     background-color: #292929;
   }
 
+  &--price {
+    padding: 20px 0 20px;
+  }
+
+  &--small-form {
+    padding: 80px 0 60px;
+  }
+
   &--vertical-bg {
     background-image: url(http://localhost:3000/wp-content/themes/fit-beauty-theme/dist/images/sec-bg.png);
     background-position: center center;
@@ -52,6 +60,28 @@
 
   &__title {
     margin-bottom: 60px;
+  }
+
+  &--single-header {
+    height: auto;
+    min-height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    & > .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+    }
+
+    & > .container {
+      z-index: 2;
+    }
   }
 }
 

@@ -4,12 +4,11 @@
       <a href="{{ home_url('/') }}">
         <img height="60px" src="@asset('images/body.png')" alt="logo">
       </a>
-      {{-- <ul class="menu__list">
-        <li class="menu__element"><a href="">option</a></li>
-        <li class="menu__element"><a href="">option</a></li>
-        <li class="menu__element"><a href="">option</a></li>
-        <li class="menu__element"><a href="">option</a></li>
-      </ul> --}}
+      <div class="hamburger hamburger--collapse">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </div>
       @if (has_nav_menu('primary_navigation'))
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'menu__list']) !!}
       @endif

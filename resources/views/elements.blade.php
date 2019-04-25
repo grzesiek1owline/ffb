@@ -550,7 +550,7 @@
 
 </div>
 
-<section>
+<section class="section">
   <div class="container">
     <div class="row flex-column align-items-center flex-lg-row align-items-md-center">
       <div class="col text-lg-right mb-5 mb-lg-0 pr-0 pr-md-3 pr-lg-4">

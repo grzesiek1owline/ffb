@@ -29,6 +29,15 @@ header.header {
   width: 100%;
   display: block;
   z-index: 100;
+  transition: all 0.2s ease;
+
+  &.sticky {
+    background-color: rgba(17, 17, 17, 1);
+    padding: 10px 0;
+    -webkit-box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.22);
+  }
 }
 
 // MENU

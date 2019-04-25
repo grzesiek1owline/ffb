@@ -1,3 +1,13 @@
+function stickyMenu(scroll){
+  let sliderH = jQuery('ul.slider').height();
+  if (scroll - 100 > sliderH){
+    jQuery('header.header').addClass('sticky');
+  }
+  else {
+    jQuery('header.header').removeClass('sticky');
+  }
+}
+
 export default {
   init() {
     // JavaScript to be fired on the home page
@@ -20,6 +30,13 @@ export default {
       adaptiveHeight: true,
       appendDots: jQuery('.dots'),
       initialSlide: 1,
+    });
+
+    jQuery(window).scroll(function () {
+      var scroll = jQuery(window).scrollTop();
+      if (scroll < 800){
+        stickyMenu(scroll);
+      }
     });
 
   },

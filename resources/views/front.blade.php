@@ -7,7 +7,7 @@
 @section('content')
 @while(have_posts()) @php the_post() @endphp
 
-<div class="container pt-4 pb-5">
+<aside class="container pt-4 pb-5">
   <ul class="info-box__list">
     <li class="info-box__element">
       <img src="@asset('images/021-dive-1.png')" alt="ico" class="info-box__icon">
@@ -38,7 +38,7 @@
       </p>
     </li>
   </ul>
-</div>
+</aside>
 
 <section class="section section--bg pb-5">
   <div class="container">
@@ -319,7 +319,7 @@
   </div>
 </section>
 
-<section class="section section--dark">
+<aside class="section section--dark">
   <div class="container">
     <ul class="icon__list">
       <li class="icon__element">
@@ -352,7 +352,7 @@
       </li>
     </ul>
   </div>
-</section>
+</aside>
 
 <section class="section section--opinions">
   <div class="container">
@@ -488,7 +488,7 @@
   </div>
 </section>
 
-<section class="section section--baner py-5 bg--primary font--light">  <!-- opcjonalnie bg--second + niżej opcjonalny rozkład - klasy bootstrap-a-->
+<aside class="section section--baner py-5 bg--primary font--light">  <!-- opcjonalnie bg--second + niżej opcjonalny rozkład - klasy bootstrap-a-->
   <div class="container">
     <div class="d-flex flex-column flex-md-row justify-content-center align-items-center"> 
       <div class="baner__text text-center text-md-right mr-0 mr-md-5">
@@ -498,7 +498,7 @@
       <img class="baner__ico" src="@asset('images/001-bus.png')" alt="transport">
     </div>
   </div>
-</section>
+</aside>
 
 @endwhile
 @endsection
