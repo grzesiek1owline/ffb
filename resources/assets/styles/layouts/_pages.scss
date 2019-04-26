@@ -3,7 +3,7 @@
   width: 100%;
 
   &--bg {
-    background-image: url("images/sec-bg.png");
+    background-image: url("../images/sec-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -38,14 +38,14 @@
   }
 
   &--vertical-bg {
-    background-image: url(http://localhost:3000/wp-content/themes/fit-beauty-theme/dist/images/sec-bg.png);
+    background-image: url(../images/sec-bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   &--baner-bg {
-    background-image: url(http://localhost:3000/wp-content/themes/fit-beauty-theme/dist/images/sec-bg.png);
+    background-image: url(../images/sec-bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -194,7 +194,7 @@
     background-color: rgb(246, 246, 246);
     box-shadow: 0 0 15px 12px rgba(68, 68, 68, 0.15);
     padding: 60px;
-    background-image: url("images/sec-bg.png");
+    background-image: url("../images/sec-bg.png");
   }
 
   &__title {
@@ -560,4 +560,17 @@ table tfoot tr td {
 
 .opinion__list .slick-list {
   height: auto !important;
+}
+
+.my-calendar-header {
+  margin-bottom: 15px !important;
+}
+
+.lang__wrapper {
+  display: none;
+  transition: all 0.2s ease;
+
+  &--active {
+    display: block;
+  }
 }

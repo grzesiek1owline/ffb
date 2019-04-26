@@ -2,7 +2,10 @@
 
 @section('content')
   @while(have_posts()) @php the_post() @endphp
-    @include('partials.page-header')
-    @include('partials.content-page')
+  <section class="section">
+    <div class="container">
+      @include('partials.content-page')
+    </div>
+  </section>
   @endwhile
 @endsection

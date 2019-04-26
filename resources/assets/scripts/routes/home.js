@@ -1,6 +1,6 @@
 function stickyMenu(scroll){
   let sliderH = jQuery('ul.slider').height();
-  if (scroll - 100 > sliderH){
+  if (scroll + 250 > sliderH){
     jQuery('header.header').addClass('sticky');
   }
   else {
@@ -34,9 +34,7 @@ export default {
 
     jQuery(window).scroll(function () {
       var scroll = jQuery(window).scrollTop();
-      if (scroll < 800){
-        stickyMenu(scroll);
-      }
+      stickyMenu(scroll);
     });
 
   },
