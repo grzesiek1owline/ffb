@@ -1,5 +1,5 @@
 <header class="header">
-  <div class="container">
+  <div class="container relative">
     <nav class="menu menu--header">
       <a href="{{ home_url('/') }}">
         <img height="60px" src="@asset('images/body.png')" alt="logo">
@@ -10,7 +10,7 @@
         </div>
       </div>
       @if (has_nav_menu('primary_navigation'))
-        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'menu__list']) !!}
+        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'menu__list', 'container' => 'div','container_class' => 'menu__container',]) !!}
       @endif
     </nav>
   </div>
@@ -21,7 +21,7 @@
 @else
   @include('partials.page-title')
 @endif
- 
+
 
 
 

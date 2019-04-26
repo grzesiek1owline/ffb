@@ -1,11 +1,12 @@
 <section class="section section__contact-map pb-0">
         <div class="container">
-          <div class="contact__wrapper relative" style="z-index:5">
+          <div class="contact__wrapper relative" style="z-index:5" style="background-image: url('@asset('images/sec-bg.png')'); z-index:5;">
             <div class="section__title d-block text-center">
               <h2 class="ttu bold">Kontakt z nami</h2>
               <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
             </div>
-            <form action="">
+            @php echo do_shortcode('[contact-form-7 id="72" title="Kontakt"]'); @endphp
+            {{-- <form action="">
               <input class="input input--half"  type="text" placeholder="Imię" required>
               <input class="input input--half"  type="text" placeholder="Nazwisko">
               <input class="input input--half"  type="email" placeholder="Adres email" required>
@@ -13,7 +14,7 @@
               <input class="input input--full"  type="text" placeholder="Temat">
               <textarea class="textarea" placeholder="Treść wiadomości"></textarea>
               <input class="post__perm" type="submit" value="Wyślij wiadomość">
-            </form>
+            </form> --}}
           </div>
         </div>
         

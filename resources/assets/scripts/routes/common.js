@@ -1,6 +1,5 @@
 function stickyMenuSingle(scroll){
   let sliderH = jQuery('.section--single-header').height();
-  console.log('sliderH' + sliderH);
   if (scroll > sliderH){
     jQuery('header.header').addClass('sticky');
   }
@@ -15,6 +14,24 @@ export default {
       jQuery(window).scroll(function () {
         var scroll = jQuery(window).scrollTop();
         stickyMenuSingle(scroll);
+      });
+
+      jQuery('.hamburger').click(function(){
+        let menuContainer = jQuery('.menu__container');
+        let menuList = jQuery('.menu__list').height();
+        let windowH = jQuery(window).height();
+    
+        if(jQuery(this).hasClass('is-active')){
+          jQuery(this).removeClass('is-active');
+          menuContainer.css('left','-1000px');
+        }
+        else{
+          jQuery(this).addClass('is-active');
+          menuContainer.css('left','0');
+          if (menuList > windowH){
+            menuContainer.css('overflow-y','scroll');
+          }
+        }
       });
   },
   finalize() {

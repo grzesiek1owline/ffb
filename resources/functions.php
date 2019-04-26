@@ -96,3 +96,9 @@ Container::getInstance()
         register_nav_menu('footer-menu',__( 'Footer Menu' ));
       }
       add_action( 'init', 'register_my_menu' );
+
+      add_filter('wpcf7_form_elements', function($content) {
+        $content = preg_replace('/<(span).*?class="\s*(?:.*\s)?wpcf7-form-control-wrap(?:\s[^"]+)?\s*"[^\>]*>(.*)<\/\1>/i', '\2', $content);
+    
+        return $content;
+    });

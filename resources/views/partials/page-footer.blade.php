@@ -46,7 +46,8 @@
             <h2 class="ttu bold">Formularz kontaktowy</h2>
             <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
           </div>
-          <form action="">
+          @php echo do_shortcode('[contact-form-7 id="72" title="Kontakt"]'); @endphp
+          {{-- <form action="">
             <input class="input input--half" type="text" placeholder="Imię" required>
             <input class="input input--half" type="text" placeholder="Nazwisko">
             <input class="input input--half" type="email" placeholder="Adres email" required>
@@ -56,7 +57,7 @@
             <div class="mx-auto d-block text-center">
               <input class="post__perm" type="submit" value="Wyślij wiadomość">
             </div>
-          </form>
+          </form> --}}
         </div>
       </div>
     </div>

@@ -399,34 +399,34 @@
   <div class="gallery__wrapper">
     <div class="gallery__cell gallery__cell--1">
       <div class="gallery__element"><a
-          href="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg"><img
-            src="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg"
+          href="@asset('images/unsplash-2.jpg')"><img
+            src="@asset('images/unsplash-2.jpg')"
             alt=""></a></div>
     </div>
     <div class="gallery__cell gallery__cell--2">
       <div class="gallery__element gallery__element--small"><a
-          href="https://www.canva.com/learn/wp-content/uploads/2018/11/best-free-stock-photos.jpg"><img
-            src="https://www.canva.com/learn/wp-content/uploads/2018/11/best-free-stock-photos.jpg" alt=""></a></div>
+          href="@asset('images/unsplash-4.jpg')"><img
+            src="@asset('images/unsplash-4.jpg')" alt=""></a></div>
       <div class="gallery__element gallery__element--small gallery__element--wider"><a
-          href="https://www.harvard.edu/sites/default/files/feature_item_media/021317_features_RL_0077.jpg"><img
-            src="https://www.harvard.edu/sites/default/files/feature_item_media/021317_features_RL_0077.jpg" alt=""></a>
+          href="@asset('images/unsplash-12.jpg')"><img
+            src="@asset('images/unsplash-12.jpg')" alt=""></a>
       </div>
       <div class="gallery__element gallery__element--small"><a
-          href="https://www.canva.com/learn/wp-content/uploads/2018/11/best-free-stock-photos.jpg"><img
-            src="https://www.canva.com/learn/wp-content/uploads/2018/11/best-free-stock-photos.jpg" alt=""></a></div>
+          href="@asset('images/unsplash-15.jpg')"><img
+            src="@asset('images/unsplash-15.jpg')" alt=""></a></div>
       <div class="gallery__element gallery__element--small"><a
-          href="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg"><img
-            src="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg"
+          href="@asset('images/blue/011-relax-blue.svg')"><img
+            src="@asset('images/blue/011-relax-blue.svg')"
             alt=""></a></div>
       <div class="gallery__element gallery__element--small"><a
-          href="https://cdn.theatlantic.com/assets/media/img/photo/2018/01/photos-of-the-new-year-ringing-in-2/n01_AP18001109875267/main_900.jpg?1514830351"><img
-            src="https://cdn.theatlantic.com/assets/media/img/photo/2018/01/photos-of-the-new-year-ringing-in-2/n01_AP18001109875267/main_900.jpg?1514830351"
+          href="@asset('images/unsplash-16.jpg')"><img
+            src="@asset('images/unsplash-16.jpg')"
             alt=""></a></div>
     </div>
     <div class="gallery__cell gallery__cell--1">
       <div class="gallery__element gallery__element--higher"><a
-          href="https://cdn.theatlantic.com/assets/media/img/photo/2018/01/photos-of-the-new-year-ringing-in-2/n01_AP18001109875267/main_900.jpg?1514830351"><img
-            src="https://cdn.theatlantic.com/assets/media/img/photo/2018/01/photos-of-the-new-year-ringing-in-2/n01_AP18001109875267/main_900.jpg?1514830351"
+          href="@asset('images/unsplash-20.jpg')"><img
+            src="@asset('images/unsplash-20.jpg')"
             alt=""></a></div>
     </div>
   </div>
@@ -440,9 +440,9 @@
         </div>
     <ul class="price__list">
       <li class="price__element">
-        <h3 class="price__title">Karnet Open</h3>
+        <h3 class="price__title">Karnet Bronze</h3>
         <img src="@asset('images/blue/012-beach.png')" alt="ikona pakietu">
-        <div class="price">od 80zł <span>/miesięcznie</span></div>
+        <div class="price">od 94zł <span>/miesięcznie</span></div>
         <ul class="package__list">
           <li class="package__element">
             <p>Zajęcia fitness</p>
@@ -454,9 +454,9 @@
         </ul>
       </li>
       <li class="price__element price__element--active">
-        <h3 class="price__title">Karnet Open</h3>
+        <h3 class="price__title">Karnet Gold</h3>
         <img src="@asset('images/blue/013-swimmer-1.png')" alt="ikona pakietu">
-        <div class="price">od 80zł <span>/miesięcznie</span></div>
+        <div class="price">od 125zł <span>/miesięcznie</span></div>
         <ul class="package__list">
           <li class="package__element">
             <p>Zajęcia fitness</p>
@@ -468,9 +468,9 @@
         </ul>
       </li>
       <li class="price__element">
-        <h3 class="price__title">Karnet Open</h3>
+        <h3 class="price__title">Karnet Silver</h3>
         <img src="@asset('images/blue/001-swimming-figure.png')" alt="ikona pakietu">
-        <div class="price">od 80zł <span>/miesięcznie</span></div>
+        <div class="price">od 112zł <span>/miesięcznie</span></div>
         <ul class="package__list">
           <li class="package__element">
             <p>Zajęcia fitness</p>

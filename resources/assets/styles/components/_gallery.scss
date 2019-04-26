@@ -9,6 +9,10 @@
     align-items: stretch;
     width: 100%;
 
+    &--page {
+      flex-wrap: wrap;
+    }
+
     @include rwd(1200px) {
       flex-wrap: wrap;
     }
@@ -41,6 +45,14 @@
       @include rwd(1200px) {
         width: 100%;
       }
+    }
+
+    &--3 {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
     }
   }
 
