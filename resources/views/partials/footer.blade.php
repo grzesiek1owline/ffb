@@ -4,7 +4,7 @@
   @include('partials.page-footer') 
 @endif
 
-<aside class="partners pb-5">
+<aside class="partners pb-5 mb-3">
   <div class="container">
     <div class="row flex-column align-items-center justify-content-center">
         <div class="partners__text py-3 mb-3 text-center">
@@ -12,6 +12,7 @@
             <small>MultiSport, MultiSport Senior i Kids, Fitprofit, Ok System</small>
         </div>
         <img height="100px" src="@asset('images/karty-sportowe2.png')" alt="karty sportowe - multisport, fit profit, oksystem">
+        <a class="primary-c" href=""><small>Sprawdź szczegóły w cenniku</small></a>
     </div>
   </div>
 </aside>

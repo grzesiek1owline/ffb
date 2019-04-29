@@ -41,7 +41,7 @@
           odpowiemy najszybciej jak to możliwe!</p>
       </div>
       <div class="col">
-        <div class="contact__wrapper contact__wrapper--small">
+        <div class="contact__wrapper contact__wrapper--small" style="background: url('@asset('images/sec-bg.png')');">
           <div class="section__title d-block text-center">
             <h2 class="ttu bold">Formularz kontaktowy</h2>
             <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
@@ -63,8 +63,9 @@
     </div>
   </div>
 </section>
-<section class="section section--map pb-0">
+<section class="section section--map pb-0 relative">
   <div id="map"></div>
+  <a href="" class="post__perm dojazd">Zobacz dojazd</a>
 </section>
 <script>
     //['Body Beauty Fit', 52.165351, 21.076764]
@@ -261,7 +262,7 @@
                       ['Body Beauty Fit', 52.165351, 21.076764]
                   ];
                    
-                  var image = '<?php echo get_template_directory_uri(); ?>/../dist/images/001-maps-and-flags.png';
+                  var image = '@asset('images/001-maps-and-flags.png')';
                                    
                   for (var i = 0; i < markers.length; i++) {
                       var draftMarker = markers[i];

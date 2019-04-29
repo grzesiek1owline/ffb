@@ -2,11 +2,11 @@
   padding: 60px 0 80px;
   width: 100%;
 
-  &--bg {
-    background-image: url(../images/sec-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  // &--bg {
+  //   background-image: url(../images/sec-bg.png);
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  // }
 
   &--opinions {
     padding: 100px 0 60px;
@@ -131,14 +131,14 @@
     }
   }
 
-  &__desc {
-    text-align: justify;
-    padding: 80px 60px 80px 20px;
+  // &__desc {
+  //   //text-align: justify;
+  //   //padding: 8px 60px 80px 20px;
 
-    @include rwd (992px) {
-      padding: 30px 0;
-    }
-  }
+  //   @include rwd (992px) {
+  //     padding: 30px 0;
+  //   }
+  // }
 
   &__bg {
     position: absolute;
@@ -148,24 +148,9 @@
     width: 40vw;
     background: $primary-color;
     z-index: 1;
-
-    &::before {
-      content: "";
-      position: absolute;
-      right: 0;
-      top: 0;
-      height: 100%;
-      width: 40vw;
-      background: url("../images/unsplash-18.jpg");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      opacity: 0.4;
-
-      @include rwd (992px) {
-        width: 100%;
-      }
-    }
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
     &--reverse {
       right: auto;
@@ -194,7 +179,7 @@
     background-color: rgb(246, 246, 246);
     box-shadow: 0 0 15px 12px rgba(68, 68, 68, 0.15);
     padding: 60px;
-    background-image: url("../images/sec-bg.png");
+    //background-image: url("../images/sec-bg.png");
   }
 
   &__title {

@@ -40,7 +40,7 @@
   </ul>
 </aside>
 
-<section class="section section--bg pb-5">
+<section class="section section--bg pb-4">
   <div class="container">
     <div class="section__title d-block text-center">
       <h2 class="ttu bold">Aktualności</h2>
@@ -65,11 +65,6 @@
         <a href="#" class="post__perm">Czytaj dalej...</a>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="section pb-0">
-  <div class="container">
     <ul class="post__list">
       <li class="post__list-element">
         <div class="post__single">
@@ -141,16 +136,12 @@
 <section class="section section--vertical pb-5">
   <div class="container">
     <div class="row align-items-stretch">
-      <div class="col-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-column justify-content-center relative">
-        <div class="vertical__title text-center text-md-left text-lg-right relative d-block">
-          <h2 class="ttu">O NAS</h2>
-          <p class="vertical__subtitle">Witaj w naszym klubie</p>
+      <div class="col-12 col-md-12 col-lg-10 col-xl-10 offset-lg-1 offset-xl-1 ">
+        <div class="section__title d-block text-center">
+              <h2 class="ttu bold">O nas</h2>
+              <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
         </div>
-        <div class="vertical__bg vertical__bg--left">
-        </div>
-      </div>
-      <div class="col-12 col-md-12 col-lg-6 col-xl-8">
-        <div class="vertical__desc">
+        <div class="vertical__desc text-center">
           <p class="mb-4 pb-3">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationulaco laboris nisi ut aliquip ex ea
@@ -169,7 +160,7 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section" style="background-color: #f5f5f5">
   <div class="container">
     <div class="section__title d-block text-center">
       <h2 class="ttu bold">Oferta</h2>
@@ -356,7 +347,7 @@
 
 <section class="section section--opinions">
   <div class="container">
-    <div class="opinion__wrapper">
+    <div class="opinion__wrapper" style="background: url('@asset('images/sec-bg.png')');">
       <h2 class="opinion__title">Co mówią o nas klienci?</h2>
       <p class="opinion__quot">"</p>
       <ul class="opinion__list">

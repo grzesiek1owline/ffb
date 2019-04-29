@@ -1,6 +1,6 @@
-<section class="section section__contact-map pb-0">
+<section class="section section__contact-map relative pb-0">
         <div class="container">
-          <div class="contact__wrapper relative" style="z-index:5" style="background-image: url('@asset('images/sec-bg.png')'); z-index:5;">
+          <div class="contact__wrapper relative" style="background-image: url('@asset('images/sec-bg.png')'); z-index:5;">
             <div class="section__title d-block text-center">
               <h2 class="ttu bold">Kontakt z nami</h2>
               <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
@@ -20,7 +20,7 @@
         
           <div id="map-split">
           </div>
-        
+          <a href="" class="post__perm dojazd">Zobacz dojazd</a>
       </section>
       
       <script>
@@ -218,7 +218,7 @@
                           ['Body Beauty Fit', 52.165351, 21.076764]
                       ];
                        
-                      var image = '<?php echo get_template_directory_uri(); ?>/../dist/images/001-maps-and-flags.png';
+                      var image = '@asset('images/001-maps-and-flags.png')';
                                        
                       for (var i = 0; i < markers.length; i++) {
                           var draftMarker = markers[i];

@@ -90,3 +90,7 @@ ul {
 .relative {
   position: relative;
 }
+
+a.primary-c:hover {
+  color: $primary-color;
+}
