@@ -133,8 +133,8 @@
   </div>
 </section>
 
-<section class="section section--vertical pb-5">
-  <div class="container">
+<section class="section section--vertical pb-0">
+  <div class="container pb-5">
     <div class="row align-items-stretch">
       <div class="col-12 col-md-12 col-lg-10 col-xl-10 offset-lg-1 offset-xl-1 ">
         <div class="section__title d-block text-center">
@@ -158,6 +158,11 @@
       </div>
     </div>
   </div>
+
+  <aside class="bg__fixed mt-5" style="background-image: url('@asset('images/unsplash-12.jpg')');">
+
+  </aside>
+
 </section>
 
 <section class="section" style="background-color: #f5f5f5">

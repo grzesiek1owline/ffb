@@ -65,7 +65,7 @@
 </section>
 <section class="section section--map pb-0 relative">
   <div id="map"></div>
-  <a href="" class="post__perm dojazd">Zobacz dojazd</a>
+  <a href="https://www.google.com/maps/dir//Sarmacka+5,+00-999+Warszawa/@52.1656157,21.0745475,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47192d5b4074c9ed:0x1d6300768a1601ee!2m2!1d21.0767362!2d52.1656124" class="post__perm dojazd">Zobacz dojazd</a>
 </section>
 <script>
     //['Body Beauty Fit', 52.165351, 21.076764]

@@ -543,6 +543,36 @@
     </div>
   
   </section>
+
+  <section class="section section--price">
+    <div class="section__title d-block text-center">
+      <div class="container">
+        <h2 class="ttu bold">Karty Członkowskie</h2>
+        <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row flex-column align-items-center justify-content-center">
+        {{-- <div class="partners__text py-3 mb-3 text-center">
+            <p class="mb-0"><b>Honorujemy karty:</b></p>
+            <small>MultiSport, MultiSport Senior i Kids, Fitprofit, Ok System</small>
+        </div> --}}
+        <img height="100px" src="@asset('images/karty-sportowe2.png')" alt="karty sportowe - multisport, fit profit, oksystem">
+        <div class="partners__info text-center">
+          <p>
+            Honorujemy karty MultiSport, MultiSport Senior i Kids, Fitprofit, Ok System.
+          <br/>
+          Dla kart <b>Multisport</b> obowiązuje dopłata w wysokości 5zł za korzystanie z części basenowej. Brak dopłaty dla uzytkowników sprzętu cardio i sali fitness
+          <br/>
+          Dla kart <b>OK SYSTEM</b> opcjonalnie występuje dopłata w wysokości 5zł. Sprawdź na <a href="https://www.oksystem.pl/">stronie partnera</a> czy dopłata dotyczy Twojej karty.
+        </p>
+        </div>
+      </div>
+    </div>
+
+  
+  </section>
 </div>
 
 
@@ -1069,6 +1099,37 @@
     </div>
   
   </section>
+
+  <section class="section section--price">
+      <div class="section__title d-block text-center">
+        <div class="container">
+          <h2 class="ttu bold">Karty Członkowskie</h2>
+          <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="row flex-column align-items-center justify-content-center">
+          {{-- <div class="partners__text py-3 mb-3 text-center">
+              <p class="mb-0"><b>Honorujemy karty:</b></p>
+              <small>MultiSport, MultiSport Senior i Kids, Fitprofit, Ok System</small>
+          </div> --}}
+          <img height="100px" src="@asset('images/karty-sportowe2.png')" alt="karty sportowe - multisport, fit profit, oksystem">
+          <div class="partners__info text-center">
+            <p>
+              Honorujemy karty MultiSport, MultiSport Senior i Kids, Fitprofit, Ok System.
+            <br/>
+            Dla kart <b>Multisport</b> obowiązuje dopłata w wysokości 5zł za korzystanie z części basenowej. Brak dopłaty dla uzytkowników sprzętu cardio i sali fitness
+            <br/>
+            Dla kart <b>OK SYSTEM</b> opcjonalnie występuje dopłata w wysokości 5zł. Sprawdź na <a href="https://www.oksystem.pl/">stronie partnera</a> czy dopłata dotyczy Twojej karty.
+          </p>
+          </div>
+        </div>
+      </div>
+  
+    
+    </section>
+
 </div>
 
 @endwhile
