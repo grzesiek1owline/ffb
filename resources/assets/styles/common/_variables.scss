@@ -1,0 +1,35 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+/* sage/assets/styles/common/_variables.scss */
+// Slick Carousel font path
+$slick-font-path: "~slick-carousel/slick/fonts/";
+
+// Slick Carousel ajax-loader.gif path
+$slick-loader-path: "~slick-carousel/slick/";
+
+$theme-colors: (
+  primary: #525ddc
+);
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+/* FONTS */
+
+$base-font-size: 16;
+
+$primary-font: "Roboto", sans-serif;
+$second-font: "Lobster", cursive;
+
+$primary-color: #009ee2;
+//$primary-dark-color:
+$second-color: #00b8d4;
+$third-color: #dcab0a;
+//$second-color: #9bd5e1;
+//$second-dark-color:
+
+$light-color: #fff;
+$dark-color: #444;
+$darker-color: #333;
