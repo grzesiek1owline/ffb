@@ -101,20 +101,27 @@
 
 @if($cards_pl_image)
 
-<aside class="partners pb-5 mb-3">
-  <div class="container">
-    <div class="row flex-column align-items-center justify-content-center">
-        <div class="partners__text py-3 mb-3 text-center">
-            <p class="mb-0"><b>{{ $cards_pl_title }}</b></p>
-            <small>{!! $cards_pl_content !!}</small>
-        </div>
-        <img height="100px" src="{{ $cards_pl_image['url'] }}" alt="{{ $cards_pl_image['alt'] }}">
-        @if($cards_pl_link )
-        <a class="primary-c" href="{{ $cards_pl_link['url'] }}"><small>{{ $cards_pl_link['title'] }}</small></a>
-        @endif
+<section class="section section--price">
+    <div class="section__title d-block text-center">
+      <div class="container">
+        <h2 class="ttu bold">{{ $cards_pl_title }}</h2>
+        <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
+      </div>
     </div>
-  </div>
-</aside>
+
+    <div class="container">
+      <div class="row flex-column align-items-center justify-content-center">
+        
+        <img height="100px" src="{{ $cards_pl_image['url'] }}" alt="{{ $cards_pl_image['alt'] }}">
+        <div class="partners__info text-center">
+          <p>
+          {!! $cards_pl_content !!}  
+          </p>
+        </div>
+      </div>
+    </div>
+
+ </section>
 
 @endif
 </div>
@@ -201,20 +208,26 @@
 
 @if($cards_eng_image)
 
-<aside class="partners pb-5 mb-3">
-  <div class="container">
-    <div class="row flex-column align-items-center justify-content-center">
-        <div class="partners__text py-3 mb-3 text-center">
-            <p class="mb-0"><b>{{ $cards_eng_title }}</b></p>
-            <small>{!! $cards_eng_content !!}</small>
-        </div>
-        <img height="100px" src="{{ $cards_eng_image['url'] }}" alt="{{ $cards_eng_image['alt'] }}">
-        @if($cards_eng_link )
-        <a class="primary-c" href="{{ $cards_eng_link['url'] }}"><small>{{ $cards_eng_link['title'] }}</small></a>
-        @endif
+<section class="section section--price">
+    <div class="section__title d-block text-center">
+      <div class="container">
+        <h2 class="ttu bold">{{ $cards_eng_title }}</h2>
+        <img src="@asset('images/separator.png')" alt="ico" class="title__separator">
+      </div>
     </div>
-  </div>
-</aside>
+
+    <div class="container">
+      <div class="row flex-column align-items-center justify-content-center">
+        
+        <img height="100px" src="{{ $cards_eng_image['url'] }}" alt="{{ $cards_eng_image['alt'] }}">
+        <div class="partners__info text-center">
+          <p>
+          {!! $cards_eng_content !!}  
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
 
 @endif
 

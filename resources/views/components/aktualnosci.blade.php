@@ -5,6 +5,8 @@
   );
 
   $latest_posts = get_posts( $args );
+  
+
 @endphp
 {{-- @dump($latest_posts) --}}
 
@@ -31,7 +33,7 @@
             </div>
             <div class="post__excerpt post__excerpt--newest">
               <h3>{{ $post -> post_title }}</h3>
-              <p>{{ $post -> post_excerpt }}</p>
+              <p>{{ the_field('zajawka', $post->ID) }}</p>
               @if($post -> post_content)
               <a href="{{ get_permalink($post -> ID) }}" class="post__perm">Czytaj dalej...</a>
               @endif
@@ -53,7 +55,7 @@
               </div>
               <div class="post__excerpt">
                 <h3>{{ $post -> post_title }}</h3>
-                <p>{{ $post -> post_excerpt }}</p>
+                <p>{{ the_field('zajawka', $post->ID) }}</p>
                 @if($post -> post_content)
                 <a href="{{ get_permalink($post -> ID) }}" class="post__perm">Czytaj dalej...</a>
                 @endif
